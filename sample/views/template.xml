@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+      <template id="assets_frontend" name="sample assets" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside" >
+          <link rel="stylesheet" href="/sample/static/src/css/main.c9e128f0.css"/>
+          <script type="text/javascript" src="/sample/static/src/js/main.0ff9807b.js"></script>
+          <script type="text/javascript" src="/sample/static/src/js/787.5ade87c0.chunk.js"></script>
+        </xpath>
+      </template>
+</odoo>

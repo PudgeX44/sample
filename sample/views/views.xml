@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <odoo>
+      <template id="sample_page" name="QTech">
+          <t t-call="website.layout">
+            <script>
+              $(document).ready(function(){
+                $('.o_affix_enabled').hide()
+                $('.o_footer').hide()
+                $('.o_main_navbar').hide()
+              })
+            </script>
+            <html lang="en">
+              <head>
+                <meta charset="utf-8" />
+                <!-- <link rel="icon" href="/QTech_icongold.png" /> -->
+                <meta name="viewport" content="width=device-width,initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <meta
+                  name="description"
+                  content="Web site created using create-react-app"
+                />
+                <!-- <link rel="apple-touch-icon" href="/logo192.png" />
+                <link rel="manifest" href="/manifest.json" /> -->
+                <title>QTech</title>
+                <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+                <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+                <link href="css/creative.min.css" rel="stylesheet" />
+                <script defer="defer" src="/static/js/main.0ff9807b.js"></script>
+                <link href="/static/css/main.c9e128f0.css" rel="stylesheet" /> -->
+              </head>
+              <body id="page-top">
+                <noscript>You need to enable JavaScript to run this app.</noscript>
+                <div id="root">React</div>
+              </body>
+            </html>
+          </t>
+      </template>
+  </odoo>
